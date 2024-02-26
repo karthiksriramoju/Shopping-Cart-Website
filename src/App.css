@@ -1,0 +1,24 @@
+
+
+.navbar {
+  background-color: #333; /* Background color for the navbar */
+  color: #fff; /* Text color for the navbar */
+  padding: 10px 20px; /* Padding around the navbar */
+}
+
+.navlinks {
+  display: flex; /* Make the links flex items */
+  justify-content: space-between; /* Spread the links evenly */
+}
+
+.navlinks a {
+  font-size: 25px;
+  padding-top : 5px;
+  text-decoration: none; /* Remove default underline */
+  color: #fff; /* Text color for the links */
+  margin-right: 10px; /* Spacing between the links */
+}
+
+.navlinks a:hover {
+  color: #ccc; /* Text color when hovering over the links */
+}
